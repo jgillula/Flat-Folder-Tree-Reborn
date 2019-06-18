@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "突围子文件夹">
+<!ENTITY FolderPaneContextBreakout.accesskey "B">
+<!ENTITY FolderPaneContextPromote.label "促进子文件夹">
+<!ENTITY FolderPaneContextPromote.accesskey "P">
+<!ENTITY FolderPaneContextRestore.label "还原父文件夹">
+<!ENTITY FolderPaneContextRestore.accesskey "R">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "平坦">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "L">

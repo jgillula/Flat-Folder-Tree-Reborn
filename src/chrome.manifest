@@ -1,0 +1,12 @@
+content   flatfoldertree                 chrome/content/
+skin      flatfoldertree   classic/1.0   chrome/skin/
+locale    flatfoldertree   de-DE         chrome/locale/de-DE/
+locale    flatfoldertree   en-US         chrome/locale/en-US/
+locale    flatfoldertree   es-ES         chrome/locale/es-ES/
+locale    flatfoldertree   fr-FR         chrome/locale/fr-FR/
+locale    flatfoldertree   ja-PJ         chrome/locale/ja-JP/
+locale    flatfoldertree   pt-BR         chrome/locale/pt-BR/
+locale    flatfoldertree   ru-RU         chrome/locale/ru-RU/
+locale    flatfoldertree   zh-CN         chrome/locale/zh-CN/
+
+overlay   chrome://messenger/content/messenger.xul chrome://flatfoldertree/content/messenger.xul

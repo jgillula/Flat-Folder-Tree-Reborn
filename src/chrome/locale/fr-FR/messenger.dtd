@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "Breakout Sous-dossiers">
+<!ENTITY FolderPaneContextBreakout.accesskey "B">
+<!ENTITY FolderPaneContextPromote.label "Promouvoir Les Sous-dossiers">
+<!ENTITY FolderPaneContextPromote.accesskey "P">
+<!ENTITY FolderPaneContextRestore.label "Restaurer Dossier Parent">
+<!ENTITY FolderPaneContextRestore.accesskey "R">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "Aplatis">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "L">

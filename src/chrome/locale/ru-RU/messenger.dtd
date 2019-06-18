@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "Breakout подпапок">
+<!ENTITY FolderPaneContextBreakout.accesskey "B">
+<!ENTITY FolderPaneContextPromote.label "Содействие подпапок">
+<!ENTITY FolderPaneContextPromote.accesskey "P">
+<!ENTITY FolderPaneContextRestore.label "Восстановление Родитель папки">
+<!ENTITY FolderPaneContextRestore.accesskey "R">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "Уплощенной">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "L">

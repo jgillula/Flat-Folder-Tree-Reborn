@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "Breakout Subpastas">
+<!ENTITY FolderPaneContextBreakout.accesskey "B">
+<!ENTITY FolderPaneContextPromote.label "Promover Subpastas">
+<!ENTITY FolderPaneContextPromote.accesskey "P">
+<!ENTITY FolderPaneContextRestore.label "Restaurar Pasta Pai">
+<!ENTITY FolderPaneContextRestore.accesskey "R">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "Achatado">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "L">

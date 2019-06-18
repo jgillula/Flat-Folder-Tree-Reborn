@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "Breakout Subcarpetas">
+<!ENTITY FolderPaneContextBreakout.accesskey "B">
+<!ENTITY FolderPaneContextPromote.label "Promover Subcarpetas">
+<!ENTITY FolderPaneContextPromote.accesskey "P">
+<!ENTITY FolderPaneContextRestore.label "Restaurar la Carpeta Madre">
+<!ENTITY FolderPaneContextRestore.accesskey "R">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "Aplanados">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "L">

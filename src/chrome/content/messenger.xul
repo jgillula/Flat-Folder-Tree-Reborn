@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay SYSTEM "chrome://flatfoldertree/locale/messenger.dtd">
+<overlay id="flatfoldertree" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/javascript" src="chrome://flatfoldertree/content/flatfoldertree.js"></script>
+    <popup id="folderPaneContext">
+        <menuseparator
+            insertafter="folderPaneContext-sep3"
+        />
+        <menuitem
+            type="checkbox"
+            autocheck="false"
+            id="folderPaneContext-FFT-restore"
+            label="&FolderPaneContextRestore.label;"
+            accesskey="&FolderPaneContextRestore.accesskey;"
+            oncommand="FlatFolderTree.onFolderRestore();"
+            insertafter="folderPaneContext-sep3"
+        />
+		<menuitem
+            type="checkbox"
+            autocheck="false"
+            id="folderPaneContext-FFT-promote"
+            label="&FolderPaneContextPromote.label;"
+            accesskey="&FolderPaneContextPromote.accesskey;"
+            oncommand="FlatFolderTree.onFolderPromote();"
+            insertafter="folderPaneContext-sep3"
+        />
+        <menuitem
+            type="checkbox"
+            autocheck="false"
+            id="folderPaneContext-FFT-breakout"
+            label="&FolderPaneContextBreakout.label;"
+            accesskey="&FolderPaneContextBreakout.accesskey;"
+            oncommand="FlatFolderTree.onFolderBreakout();"
+            insertafter="folderPaneContext-sep3"
+        />
+	</popup>
+	<popup id="menu_FolderViewsPopup">
+		<menuitem
+			type="radio"
+			id="menu_flatFolders"
+			value="flat"
+			label="&FolderViewsPopupFlattenedFolders.label;"
+			accesskey="&FolderViewsPopupFlattenedFolders.accesskey;"
+			oncommand="gFolderTreeView.mode = this.value;"
+			insertafter="menu_allFolders"
+		/>
+	</popup>
+</overlay>

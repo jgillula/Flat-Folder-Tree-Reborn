@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "Breakout Subfolders">
+<!ENTITY FolderPaneContextBreakout.accesskey "B">
+<!ENTITY FolderPaneContextPromote.label "Promote Subfolders">
+<!ENTITY FolderPaneContextPromote.accesskey "P">
+<!ENTITY FolderPaneContextRestore.label "Restore Parent Folder">
+<!ENTITY FolderPaneContextRestore.accesskey "R">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "Flattened">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "L">

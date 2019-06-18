@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "親フォルダの除去">
+<!ENTITY FolderPaneContextBreakout.accesskey "B">
+<!ENTITY FolderPaneContextPromote.label "子フォルダを昇格">
+<!ENTITY FolderPaneContextPromote.accesskey "P">
+<!ENTITY FolderPaneContextRestore.label "親フォルダの復元">
+<!ENTITY FolderPaneContextRestore.accesskey "R">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "平坦化">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "L">

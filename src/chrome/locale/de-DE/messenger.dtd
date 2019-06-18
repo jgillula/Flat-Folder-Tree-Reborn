@@ -1,0 +1,8 @@
+<!ENTITY FolderPaneContextBreakout.label "Unterordner Herauslösen">
+<!ENTITY FolderPaneContextBreakout.accesskey "H">
+<!ENTITY FolderPaneContextPromote.label "Unterordner Zu Übergeordnetem Ordner Gleichstellen">
+<!ENTITY FolderPaneContextPromote.accesskey "U">
+<!ENTITY FolderPaneContextRestore.label "Übergeordneten Ordner Wiederherstellen">
+<!ENTITY FolderPaneContextRestore.accesskey "W">
+<!ENTITY FolderViewsPopupFlattenedFolders.label "Flach">
+<!ENTITY FolderViewsPopupFlattenedFolders.accesskey "F">
