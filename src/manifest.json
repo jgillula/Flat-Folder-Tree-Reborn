@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "flatfoldertreereborn@jeremy.gillula",
+      "strict_min_version": "68.0"
+    }
+  },
+  "name": "Flat Folder Tree Reborn",
+  "version": "1.1.0",
+  "author": "Jeremy Gillula",
+  "homepage_url": "https://github.com/jgillula/Flat-Folder-Tree-Reborn",
+  "icons": {
+    "128": "chrome/skin/folder.png"
+  },
+  "legacy": {
+    "type": "xul"
+  }
+}

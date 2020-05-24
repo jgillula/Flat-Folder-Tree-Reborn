@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # First get the version number directly from the install.rdf file
-version_number=`sed -n -e 's|.*<em:version>\(.*\)</em:version>|\1|p' src/install.rdf`
+version_number=`sed -n -e 's|.*"version": "\(.*\)",|\1|p' src/manifest.json`
 
 # Go into the source directory...
 cd src

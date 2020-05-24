@@ -1,6 +1,6 @@
 Components.utils.import("resource:///modules/folderUtils.jsm");
 Components.utils.import("resource:///modules/iteratorUtils.jsm");
-Components.utils.import("resource:///modules/MailUtils.js");
+Components.utils.import("resource:///modules/MailUtils.jsm");
 
 var FlatFolderTree = {
     Strings: Components.classes["@mozilla.org/intl/stringbundle;1"].getService(Components.interfaces.nsIStringBundleService).createBundle("chrome://flatfoldertree/locale/messenger.properties"),
@@ -18,7 +18,7 @@ var FlatFolderTree = {
 			msgFolder = GetMsgFolderFromUri(GetSelectedFolderURI(), true);
 		}
 		
-        document.getElementById("folderPaneContext-FFT-breakout").disabled = document.getElementById("folderPaneContext-FFT-promote").disabled = !((msgFolder.hasSubFolders && msgFolder.parent) || (msgFolder.getFlag(nsMsgFolderFlags.ImapNoinferiors)));
+        document.getElementById("folderPaneContext-FFT-breakout").disabled = document.getElementById("folderPaneContext-FFT-promote").disabled = !((msgFolder.hasSubFolders && msgFolder.parent) || (msgFolder.getFlag(Components.interfaces.nsMsgFolderFlags.ImapNoinferiors)));
         
         document.getElementById("folderPaneContext-FFT-restore").disabled = !(msgFolder.parent && ((msgFolder.parent.getStringProperty('FFTState') == 'Broken') || (msgFolder.parent.getStringProperty('FFTState') == 'Promoted')));
 		
